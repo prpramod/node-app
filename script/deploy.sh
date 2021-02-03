@@ -1,6 +1,6 @@
 #!/bin/sh
-
-ssh jenkins@52.207.122.203 <<EOF
+ 
+ssh ubuntu@52.207.122.203 <<EOF
     cd ~/node-app
     git pull origin main
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh    | bash
