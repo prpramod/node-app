@@ -1,4 +1,5 @@
 #!/bin/sh
+sudo su - jenkins
 ssh ubuntu@52.207.122.203 <<EOF
     cd ~/node-app
     git pull origin main
