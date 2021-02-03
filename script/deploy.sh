@@ -9,6 +9,7 @@ ssh ubuntu@52.207.122.203 <<EOF
     npm install
     npm install -g nodemon pm2
     pm2 restart ecosystem.config.js
+    pm2 restart node-app
     pm2 ls
     exit
 EOF
